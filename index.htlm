@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Quête du Trésor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 15px;
+            background-color: #008CBA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #005f75;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Quête du Trésor</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="regles.html">Règles du jeu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+	<p><img scr=lettres.png></p>
+    <p><img scr=parcours.png></p>
+        <section id="scenario">
+            <h2>Scénario</h2>
+            <p>En l’an de Grâce 504, l’Europe est en proie aux conquêtes. Les tribus germaniques se déchirent l’ancien Empire Romain et l’ancienne Gaule est alors occupée par deux peuples : Francs et Wisigoths.</p>
+            <p>Afin d’assurer une paix durable entre les deux royaumes, Clovis, roi des Francs, et Alaric II, roi des Wisigoths, organisent une entrevue...</p>
+            <p>Traverse les époques en suivant le parcours, résous les énigmes afin de retrouver les lettres qui te permettront de retrouver le trésor en ce lieu.</p>
+        </section>
+        <a href="page 1.html" class="button">Voir les règles du jeu</a>
+	</main>
+</body>
+</html>
